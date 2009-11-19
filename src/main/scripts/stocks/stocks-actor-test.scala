@@ -1,3 +1,5 @@
+import net.blue64.scalatraining.stocks._
+
 /**
  * Created by IntelliJ IDEA.
  * User: Steve Levine

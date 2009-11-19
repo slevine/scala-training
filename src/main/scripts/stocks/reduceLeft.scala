@@ -1,3 +1,5 @@
+import net.blue64.scalatraining.stocks.{SimplePrice, SimplerPrice, Price, Stock}
+
 /**
  * Created by IntelliJ IDEA.
  * User: Steve Levine
