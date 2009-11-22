@@ -36,7 +36,7 @@ object SimplePrice {
     //
     // second one: foreach(s:Stock printf"%s", s)
     // '_' ~ 'it' in Groovy
-  def price(args: List[Stock]) = {
-    args.map(_.toString()).foreach(printf("%s \n", _))
+  def price(stocks: Stock*) = {
+    stocks.map(_.toString()).foreach(printf("%s \n", _))
   }
 }
