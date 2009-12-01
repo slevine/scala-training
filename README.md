@@ -19,11 +19,9 @@ Running
 Most of the examples in this project consist in the form of Scala scripts.  
 
 To run a Scala script:
-
-    `mvn scala:script -DscriptFile= <path to script file>`
+    mvn scala:script -DscriptFile= <path to script file>
 
 To run the Stocks Actor examples:
-
-    `mvn scala:script -DscriptFile=src/main/scripts/stocks/actor.scala`
+    mvn scala:script -DscriptFile=src/main/scripts/stocks/actor.scala
 
 
