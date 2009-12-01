@@ -1,10 +1,12 @@
-package net.blue64.scalatraining.stocks;
+package net.blue64.scalatraining.stocks.pricing
+
+import net.blue64.scalatraining.stocks.model.Stock
 
 /**
  * Created by IntelliJ IDEA.
  * User: Steve Levine
  * Date: Nov 18, 2009
- * Time: 11:15:53 PM
+ * Copyright 2009 blue64.net. All rights reserved.
  */
 
 class Price {

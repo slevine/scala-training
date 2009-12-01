@@ -1,12 +1,13 @@
-import net.blue64.scalatraining.stocks._
+import net.blue64.scalatraining.stocks.model.Stock
+import net.blue64.scalatraining.stocks.pricing._
+import net.blue64.scalatraining.stocks.quotes._
 
 /**
  * Created by IntelliJ IDEA.
  * User: Steve Levine
- * Date: Nov 18, 2009
- * Time: 9:29:33 PM
+ * Date: Nov 30, 2009
+ * Copyright 2009 blue64.net. All rights reserved.
  */
-
 
 PricingEngineActor.start()
 

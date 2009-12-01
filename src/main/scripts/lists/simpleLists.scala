@@ -14,9 +14,11 @@
 
 val l = List("a", "b", "c")
 
-l.map(_.toUpperCase()).foreach(printf("%s", _))
-
+// We can go imperative if we like. but...
 for (s <- l) print (s.toUpperCase()) 
+
+// functional is much nicer
+l.map(_.toUpperCase()).foreach(printf("%s", _))
 
 l.map(printf("%s", _))
 
