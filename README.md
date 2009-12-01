@@ -1,4 +1,4 @@
-## Scala Training ##
-
+Scala Training
+--------------
 
 
