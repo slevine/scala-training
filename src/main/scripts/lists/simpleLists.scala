@@ -9,6 +9,7 @@
  * Code sample used for blog post
  *  http://blue64.net/2009/11/scala-sugar-lists
  *  http://blue64.net/2009/11/scala-sugar-iteration
+ *  http://blue64.net/2009/12/scala-sugar-arrays-lists-maps/
  */
 
 
@@ -23,4 +24,8 @@ l.map(_.toUpperCase()).foreach(printf("%s", _))
 l.map(printf("%s", _))
 
 l.foreach(printf("%s", _))
+
+l.foreach(print)
+
+
 
