@@ -3,11 +3,16 @@
     <CLASSES>
       <root url="jar://$MAVEN_REPOSITORY$/org/scala-lang/scala-library/2.8.0-SNAPSHOT/scala-library-2.8.0-SNAPSHOT.jar!/" />
     </CLASSES>
-    <JAVADOC>
-      <root url="jar://$MAVEN_REPOSITORY$/org/scala-lang/scala-library/2.8.0-SNAPSHOT/scala-library-2.8.0-SNAPSHOT-javadoc.jar!/" />
-    </JAVADOC>
+    <JAVADOC />
     <SOURCES>
-      <root url="jar://$MAVEN_REPOSITORY$/org/scala-lang/scala-library/2.8.0-SNAPSHOT/scala-library-2.8.0-SNAPSHOT-sources.jar!/" />
+      <root url="file://$PROJECT_DIR$/../../../../Downloads/scala-2.8.0.r20062-b20091209020151-sources/src/partest" />
+      <root url="file://$PROJECT_DIR$/../../../../Downloads/scala-2.8.0.r20062-b20091209020151-sources/src/library" />
+      <root url="file://$PROJECT_DIR$/../../../../Downloads/scala-2.8.0.r20062-b20091209020151-sources/src/msil" />
+      <root url="file://$PROJECT_DIR$/../../../../Downloads/scala-2.8.0.r20062-b20091209020151-sources/src/actors" />
+      <root url="file://$PROJECT_DIR$/../../../../Downloads/scala-2.8.0.r20062-b20091209020151-sources/src/jline/src/test/java" />
+      <root url="file://$PROJECT_DIR$/../../../../Downloads/scala-2.8.0.r20062-b20091209020151-sources/src/fjbg" />
+      <root url="file://$PROJECT_DIR$/../../../../Downloads/scala-2.8.0.r20062-b20091209020151-sources/src/forkjoin" />
+      <root url="file://$PROJECT_DIR$/../../../../Downloads/scala-2.8.0.r20062-b20091209020151-sources/src/jline/src/main/java" />
     </SOURCES>
   </library>
 </component>

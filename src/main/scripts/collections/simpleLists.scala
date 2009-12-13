@@ -27,5 +27,11 @@ l.foreach(printf("%s", _))
 
 l.foreach(print)
 
+l foreach print
+
+// Few sample list operations
+println(l.head)
+println(l.tail)
+println(l.drop(2))
 
 

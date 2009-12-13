@@ -11,7 +11,6 @@ import net.blue64.scalatraining.stocks.pricing.{SimplePrice, SimplerPrice, Price
 
 println("---basic price---")
 
-val p1 = new Price
 println(
   p1.price(
     new Stock("aapl", 203, 4.73E9, 878876000),
