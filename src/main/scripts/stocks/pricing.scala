@@ -1,5 +1,5 @@
 import net.blue64.scalatraining.stocks.model.Stock
-import net.blue64.scalatraining.stocks.pricing.{SimplePrice, SimplerPrice, Price}
+import net.blue64.scalatraining.stocks.pricing.{Price, SimplePrice, SimplerPrice}
 
 /**
  * Created by IntelliJ IDEA.
@@ -12,12 +12,12 @@ import net.blue64.scalatraining.stocks.pricing.{SimplePrice, SimplerPrice, Price
 println("---basic price---")
 
 println(
-  p1.price(
+  new Price().price(
     new Stock("aapl", 203, 4.73E9, 878876000),
     new Stock("ibm", 66, 1.23E10, 1384331000),
     new Stock("goog", 465, 4.19E9, 314754113)
-    )
   )
+)
 
 println("---better price---")
 
@@ -26,8 +26,8 @@ println(
     new Stock("aapl", 203, 4.73E9, 878876000),
     new Stock("ibm", 66, 1.23E10, 1384331000),
     new Stock("goog", 465, 4.19E9, 314754113)
-    )
   )
+)
 
 
 println("---Fancy Price---")
@@ -36,4 +36,4 @@ SimplePrice.price(
   new Stock("aapl", 203, 4.73E9, 878876000),
   new Stock("ibm", 66, 1.23E10, 1384331000),
   new Stock("goog", 465, 4.19E9, 314754113)
-  )
+)
