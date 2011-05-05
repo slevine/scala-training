@@ -10,15 +10,21 @@ import net.blue64.scalatraining.stocks.model.Stock
  */
 
 abstract class QuoteService {
-  def price(): Unit
+  def price()
 }
 
 class NasdaqQuoteService(stock: Stock) extends QuoteService {
   stock.price = 100.00;
-  def price() = println(stock)
+
+  def price() {
+    println(stock)
+  }
 }
 
 class NYSEQuoteService(stock: Stock) extends QuoteService {
   stock.price = 66.00;
-  def price() = println(stock)
+
+  def price() {
+    println(stock)
+  }
 }

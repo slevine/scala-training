@@ -1,7 +1,6 @@
 package net.blue64.scalatraining.stocks.pricing
 
 import scala.actors._
-import scala.actors.Actor._
 import net.blue64.scalatraining.stocks.quotes.QuoteService
 
 /**
@@ -16,7 +15,7 @@ object PricingEngineActor extends Actor {
     loop {
       receive {
         case qs: QuoteService => qs.price()
-        case "exit" => println("exiting..."); exit
+        case "exit" => println("exiting..."); exit()
         case y: Any => println("Service Not Found..." + y)
       }
     }
